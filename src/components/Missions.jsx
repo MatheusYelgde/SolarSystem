@@ -22,4 +22,3 @@ export default class Missions extends Component {
     );
   }
 }
-
