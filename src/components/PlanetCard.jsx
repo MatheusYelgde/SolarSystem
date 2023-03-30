@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import Proptypes from 'prop-types';
 
-export default class PlanetCard extends Component {
+class PlanetCard extends Component {
   render() {
     const { planetName, planetImage } = this.props;
 
@@ -17,3 +18,5 @@ PlanetCard.propTypes = {
   planetImage: Proptypes.string.isRequired,
   planetName: Proptypes.string.isRequired,
 };
+
+export default PlanetCard;

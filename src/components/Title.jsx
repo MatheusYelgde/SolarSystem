@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Proptypes from 'prop-types';
 
 export default class Title extends Component {
   render() {
