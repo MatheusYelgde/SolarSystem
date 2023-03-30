@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 export default class Title extends Component {
   render() {
-    // eslint-disable-next-line react/prop-types
     const { headline } = this.props;
     return (
       <section>
@@ -11,3 +10,7 @@ export default class Title extends Component {
     );
   }
 }
+
+Title.propTypes = {
+  headline: Proptypes.string.isRequired,
+};

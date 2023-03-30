@@ -12,3 +12,8 @@ export default class PlanetCard extends Component {
     );
   }
 }
+
+PlanetCard.propTypes = {
+  planetImage: Proptypes.string.isRequired,
+  planetName: Proptypes.string.isRequired,
+};
