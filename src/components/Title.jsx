@@ -6,7 +6,7 @@ export default class Title extends Component {
     const { headline } = this.props;
     return (
       <section>
-        <h2>{headline}</h2>
+        <h2 className="text-second">{headline}</h2>
       </section>
     );
   }

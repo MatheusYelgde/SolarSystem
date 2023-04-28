@@ -1,3 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+ background-image: url('https://media.istockphoto.com/id/1159238834/vector/stars-space-and-night-sky.jpg?s=170667a&w=0&k=20&c=gbaruT61kOowYFqT1cC9iMMQrfSUtBSwrtQT7ll1ZRQ=');
+}
 .App {
   text-align: center;
+}
+
+.header {
+  border-bottom: 2px solid white;
+}
+
+.text {
+  text-align: center;
+  font-family: monospace;
+  color:white ;
+  font-size: 5em;
+  font-weight: 900;
+  opacity: 0.7;
+  padding: 0px;
+}
+
+.text:hover {
+  opacity: 1;
+  transform: scale(1.2);
+  color: #4c8387;
+  transition: 1s;
+}
+
+.text-second {
+  
+  text-align: center;
+  font-family: monospace;
+  color:#4c8387 ;
+  font-size: 3em;
+  font-weight: 900;
+}
+
+.planet-names{
+  color: white;
+  text-align: center;
+}
+
+.planet-images{
+  width: 120px;
+  opacity: 0.7;
+}
+
+.planet-images:hover{
+  opacity:1;
+}
+
+.what:hover{
+  transform: scale(1.2);
+  opacity: 1;
+  transition: 1s;
+}
+
+.planet-block{
+  display: inline-block;
+  margin-left: 100px;
+}
+
+.mission-name{
+  font-size: 30px;
+  text-align: center;
+  border-bottom: 2px solid black;
+  color:black;
+  opacity: 1;
+}
+
+.mission-year{
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 1000;
+}
+
+.mission-country{
+  display: inline-block;
+  font-size: 13px;
+}
+
+.missionCountri{
+  margin-left: 10px;
+}
+
+.mission-dest{
+  font-size: 13px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.misu{
+  margin-left: 23px;
+  margin-top: -12px;
+}
+
+.missions__containercard{
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  border: 1px solid;
+  background-color: grey;
+  opacity: 0.4;
+}
+
+.mission-block{
+  width: 350px;
+  font-size: 15px;
+  font-family: monospace;
+  font-weight: 900;
+  display: flex;
+  flex-direction:column;
+  flex-wrap: ;
+  padding: 20px 30px;
+  margin: 10px;
+  margin-top: 50px;
+  margin-left: 150px;
+  border-radius: 7px;
+  background-color: white;
+  opacity: 1;
+};
+
+.classico{
+  display: inline-block;
+}
+
+.missions__containerborder{
+  width: 70%;
+  display: flex;
+  margin-left: 260px; 
+}
+
+.missions__containercard{
+  opacity: 0.5;
+  border-radius: 15px;
 }

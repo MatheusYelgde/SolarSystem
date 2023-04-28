@@ -1,21 +1,21 @@
-import MercurioImg from '../images/Mercurio.png';
-import VenusImg from '../images/Venus.png';
-import TerraImg from '../images/Terra.png';
-import MarteImg from '../images/Marte.png';
-import JupiterImg from '../images/Jupiter.png';
-import SaturnoImg from '../images/Saturno.png';
-import Uranoimg from '../images/Urano.png';
-import Netunoimg from '../images/Netuno.png';
+import Mer from '../images/Mer.gif';
+import Venus from '../images/Venus.gif';
+import EarthRotating from '../images/EarthRotating.gif';
+import MarsRotating from '../images/MarsRotating.gif';
+import JupiterRotating from '../images/JupiterRotating.gif';
+import SaturnRotating from '../images/SaturnRotating.gif';
+import Uranus from '../images/Uranus.gif';
+import NeptuneRotating from '../images/NeptuneRotating.gif';
 
 const Planets = [
-  { name: 'Mercúrio', image: MercurioImg },
-  { name: 'Vênus', image: VenusImg },
-  { name: 'Terra', image: TerraImg },
-  { name: 'Marte', image: MarteImg },
-  { name: 'Júpiter', image: JupiterImg },
-  { name: 'Saturno', image: SaturnoImg },
-  { name: 'Urano', image: Uranoimg },
-  { name: 'Netuno', image: Netunoimg },
+  { name: 'Mercúrio', image: Mer },
+  { name: 'Vênus', image: Venus },
+  { name: 'Terra', image: EarthRotating },
+  { name: 'Marte', image: MarsRotating },
+  { name: 'Júpiter', image: JupiterRotating },
+  { name: 'Saturno', image: SaturnRotating },
+  { name: 'Urano', image: Uranus },
+  { name: 'Netuno', image: NeptuneRotating },
 ];
 
 export default Planets;
