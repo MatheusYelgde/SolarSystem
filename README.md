@@ -1,10 +1,7 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+Projeto desenvolvido em React.js, ainda com a utilização de HTML5, CSS e Javascript. 
+
+Aplicação final: Apresentação dos planetas do sistema solar e das principais missões de exploração espacial já realizadas, detalhando seu país de origem, data do acontecimento e qual foi o planeta de destino da missão. 
+
+Pastas Desenvolvidas por Matheus Yelgde: Components.
+
+Pastas Desenvolvidas pela Trybe: Data e Images.
